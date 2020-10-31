@@ -1,0 +1,17 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Vintasoft.Imaging" Version="9.1.2.11" />
+    <PackageReference Include="Vintasoft.Imaging.Ocr" Version="4.1.2.11" />
+    <PackageReference Include="Vintasoft.Imaging.Ocr.Tesseract" Version="4.1.2.11" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\ProcessingAndSacingTheResults\ProcessingAndSavingTheResults.csproj" />
+  </ItemGroup>
+
+</Project>
